@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vridhi Sharma | Portfolio</title>
+    <meta name="description" content="Vridhi Sharma is a Computer Engineering student and curious builder creating useful digital experiences.">
+    <meta name="theme-color" content="#071525">
+    <meta property="og:title" content="Vridhi Sharma | Portfolio">
+    <meta property="og:description" content="Computer Engineering student and curious builder creating useful digital experiences.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="me.png">
+    <link rel="stylesheet" href="colours.css">
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <nav class="navbar">
+        <a href="#home" class="nav-logo" aria-label="Vridhi Sharma home">VS</a>
+        <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="site-navigation">
+            <span></span><span></span><span></span>
+        </button>
+        <ul class="nav-links" id="site-navigation">
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#process">PROCESS</a></li>
+            <li><a href="#achievements">ACHIEVEMENTS</a></li>
+            <li><a href="#education">EDUCATION</a></li>
+            <li><a href="#skills">SKILLS</a></li>
+            <li><a href="#projects">PROJECTS</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+        </ul>
+        <a href="Vridhi_Sharma_Resume.docx" class="nav-btn" download>RESUME</a>
+    </nav>
+
+    <div id="home" class="page">
+        <main id="main" class="hero reveal">
+            <div class="hero-copy">
+                <p class="eyebrow">COMPUTER ENGINEERING STUDENT • CURIOUS BUILDER</p>
+                <div class="role-selector" aria-label="Choose a view of Vridhi">
+                    <span>VIEW AS</span>
+                    <button type="button" class="active" data-role="developer">DEVELOPER</button>
+                    <button type="button" data-role="designer">DESIGNER</button>
+                    <button type="button" data-role="builder">BUILDER</button>
+                </div>
+                <h1 class="hero-title">
+                    <span class="first-name" data-text="Vridhi">Vridhi</span>
+                    <span class="last-name" data-text="Sharma">Sharma</span>
+                </h1>
+                <p class="hero-subtitle">I’m a Computer Engineering student and <span class="role-line" aria-live="polite">aspiring developer</span> who likes figuring out how things work, then turning those ideas into useful digital experiences.</p>
+                <p class="signature-line">I make useful things feel alive.</p>
+                <p class="availability"><span class="status-dot" aria-hidden="true"></span> Open to meaningful projects and opportunities</p>
+                <div class="hero-now"><span>NOW EXPLORING</span><b>DSA</b><b>FULL-STACK</b><b>UI DETAILS</b></div>
+                <div class="hero-metrics" aria-label="key strengths">
+                    <div class="metric-pill"><span>2+</span>Years building</div>
+                    <div class="metric-pill"><span>8</span>Core skills</div>
+                    <div class="metric-pill"><span>3</span>Featured builds</div>
+                </div>
+                <div class="hero-actions">
+                    <a href="#projects" class="primary-btn">Explore Projects</a>
+                    <a href="#contact" class="secondary-btn">Let’s Connect</a>
+                </div>
+                <div class="command-deck" aria-label="Quick navigation command deck">
+                    <div class="command-output"><span>&gt;</span><span id="command-readout">ready for a new brief</span><i aria-hidden="true"></i></div>
+                    <div class="command-options">
+                        <button type="button" data-command="profile" data-target="#about">/ profile</button>
+                        <button type="button" data-command="builds" data-target="#projects">/ builds</button>
+                        <button type="button" data-command="connect" data-target="#contact">/ connect</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-visual">
+                <span class="hero-index">01 <b>/</b> 04</span>
+                <div class="portrait-glow"></div>
+                <div class="photo-frame">
+                    <span class="frame-label frame-label-top">PORTRAIT / 01</span>
+                    <img id="me" src="me.png" alt="Portrait of Vridhi Sharma" fetchpriority="high">
+                    <img class="portrait-alt" src="meee.png" alt="Illustrated portrait of Vridhi Sharma">
+                    <span class="frame-glint" aria-hidden="true"></span>
+                    <span class="frame-label frame-label-bottom">VRIDHI SHARMA <b>© 2026</b></span>
+                </div>
+                <span class="hero-stamp">ENGINEER<br><b>WITH INTENT</b></span>
+                <span class="portrait-note">NO TEMPLATE<br><b>JUST INTENT</b></span>
+                <div class="visual-caption"><span>HUMAN / SYSTEM</span><span>BASED IN INDIA</span></div>
+            </div>
+
+            <div class="social-strip" aria-label="social media links">
+                <a href="https://www.linkedin.com/in/vridhi-sharma-22v/" target="_blank" rel="noopener noreferrer" class="links">LINKEDIN</a>
+                <a href="https://leetcode.com/progress/" target="_blank" rel="noopener noreferrer" class="links">LEET CODE</a>
+                <a href="https://github.com/vridhisharma22" target="_blank" rel="noopener noreferrer" class="links">GIT HUB</a>
+            </div>
+            <a class="scroll-cue" href="#process"><span>SCROLL TO EXPLORE</span><b>↓</b></a>
+        </main>
+
+        <div class="build-log" aria-label="Current build log">
+            <span class="build-log-label">LIVE BUILD LOG</span>
+            <div class="build-log-track">
+                <span>learning in public <b>✦</b> shipping small, useful things <b>✦</b> turning questions into prototypes <b>✦</b> learning in public <b>✦</b> shipping small, useful things <b>✦</b></span>
+            </div>
+            <span class="build-log-time">STATUS:  ONLINE</span>
+        </div>
+
+        <section class="manifesto-section reveal" aria-label="Design manifesto">
+            <span class="manifesto-kicker">A LITTLE ABOUT THE WAY I WORK</span>
+            <div class="manifesto-copy">
+                <p>I turn curious</p>
+                <h2>questions</h2>
+                <p>into useful</p>
+                <h2 class="outline-word">things.</h2>
+            </div>
+            <div class="manifesto-track" aria-hidden="true"><span>THINK <b>✦</b> MAKE <b>✦</b> LEARN <b>✦</b> REPEAT <b>✦</b> THINK <b>✦</b> MAKE <b>✦</b> LEARN <b>✦</b> REPEAT <b>✦</b></span></div>
+        </section>
+
+        <section class="about-section reveal" id="about">
+            <div class="section-header">
+                <span class="section-tag">◈ ABOUT ME</span>
+                <h2 class="section-title">Building with <em>Clarity</em> & <em>Purpose</em></h2>
+            </div>
+            <div class="about-grid">
+                <div class="about-copy">
+                    <p>I’m currently pursuing my B.Tech in Computer Engineering at SVKM’s NMIMS Mukesh Patel School of Technology Management & Engineering. I enjoy learning by building, especially when there is a real problem to solve.</p>
+                    <p>So far, I’ve explored web development, problem solving, and technology-driven projects. I’m still learning, but I care about understanding the basics, making things useful, and improving every time I build.</p>
+                </div>
+                <div class="about-points">
+                    <div class="point-card">
+                        <span>01</span>
+                        <h3>Ask better questions</h3>
+                    </div>
+                    <div class="point-card">
+                        <span>02</span>
+                        <h3>Keep the details clean</h3>
+                    </div>
+                    <div class="point-card">
+                        <span>03</span>
+                        <h3>Make ideas feel real</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="process-section reveal" id="process">
+            <div class="section-header">
+                <span class="section-tag">◈ HOW I TURN IDEAS INTO THINGS</span>
+                <h2 class="section-title">The <em>Process</em></h2>
+            </div>
+            <div class="process-grid">
+                <article class="process-step">
+                    <span class="process-number">01</span>
+                    <h3>Notice</h3>
+                    <p>Start with the real question, the friction, and the person on the other side of the screen.</p>
+                </article>
+                <article class="process-step featured-step">
+                    <span class="process-number">02</span>
+                    <h3>Make</h3>
+                    <p>Turn the sharpest idea into a clear, useful prototype with room for a little personality.</p>
+                </article>
+                <article class="process-step">
+                    <span class="process-number">03</span>
+                    <h3>Refine</h3>
+                    <p>Test the details, remove the noise, and ship something that feels obvious in the best way.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="achievement-wall reveal" id="achievements">
+            <div class="section-header">
+                <span class="section-tag">◈ ACHIEVEMENT WALL</span>
+                <h2 class="section-title">Wins, <em>Proof</em> & <em>Momentum</em></h2>
+            </div>
+            <div class="achievement-grid">
+                <article class="achievement-card accent">
+                    <div class="achievement-media">
+                        <img src="algolympia.jpeg" alt="AlgoOlympia achievement" loading="lazy" decoding="async">
+                    </div>
+                    <div class="achievement-body">
+                        <span class="achievement-kicker">Featured milestone</span>
+                        <h3>AlgoOlympia</h3>
+                        <p>A milestone that made me more confident in my problem-solving and technical learning.</p>
+                    </div>
+                </article>
+                <article class="achievement-card">
+                    <div class="achievement-media">
+                        <img src="iitbhagalpur.jpeg" alt="IIT Bhagalpur image" loading="lazy" decoding="async">
+                    </div>
+                    <div class="achievement-body">
+                        <span class="achievement-kicker">Academic milestone</span>
+                        <h3>IIT Bhagalpur</h3>
+                        <p>An experience that pushed me to learn outside the classroom and think more openly about technology.</p>
+                        <button class="certificate-trigger" type="button" data-certificate-src="iitbhagalpur.jpeg" data-certificate-title="IIIT Bhagalpur Achievement Certificate" data-certificate-alt="IIIT Bhagalpur achievement certificate" aria-haspopup="dialog" aria-controls="certificate-modal">View certificate <span aria-hidden="true">↗</span></button>
+                    </div>
+                </article>
+                <article class="achievement-card">
+                    <div class="achievement-media">
+                        <img src="ibmstudentintern.jpeg" alt="IBM student internship certificate" loading="lazy" decoding="async">
+                    </div>
+                    <div class="achievement-body">
+                        <span class="achievement-kicker">Industry learning</span>
+                        <h3>IBM Internship</h3>
+                        <p>Helped me connect technical learning with the kind of work people actually use.</p>
+                        <button class="certificate-trigger" type="button" data-certificate-src="ibmstudentintern.jpeg" data-certificate-title="IBM Student Internship Certificate" data-certificate-alt="IBM student internship certificate" aria-haspopup="dialog" aria-controls="certificate-modal">View certificate <span aria-hidden="true">↗</span></button>
+                    </div>
+                </article>
+                <article class="achievement-card">
+                    <div class="achievement-media">
+                        <img src="unified.jpeg" alt="Unified Mentor internship certificate" loading="lazy" decoding="async">
+                    </div>
+                    <div class="achievement-body">
+                        <span class="achievement-kicker">Internship experience</span>
+                        <h3>Unified Mentor</h3>
+                        <p>Gave me hands-on exposure to web and mobile development in a real internship setting.</p>
+                        <button class="certificate-trigger" type="button" data-certificate-src="unified.jpeg" data-certificate-title="Unified Mentor Internship Certificate" data-certificate-alt="Unified Mentor internship certificate" aria-haspopup="dialog" aria-controls="certificate-modal">View certificate <span aria-hidden="true">↗</span></button>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="education reveal" id="education">
+            <h2 class="section-title education-title">My <em>Education</em></h2>
+            <div class="edu-cards">
+                <article class="edu-card green">
+                    <img class="edu-icon" src="nmimslogo.jpeg" alt="NMIMS logo" loading="lazy" decoding="async">
+                    <h3>NMIMS</h3>
+                    <p>B.Tech in Computer Engineering</p>
+                </article>
+                <article class="edu-card cyan">
+                    <img class="edu-icon" src="pinegrovelogo.jpg" alt="Pinegrove School logo" loading="lazy" decoding="async">
+                    <h3>Pinegrove School</h3>
+                    <p>Studied from 6th to 12th grade, spending seven years in boarding school. Served as a member of the Student Council and Student Coordinator of the Ecology Club.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="events-section reveal" id="skills">
+            <div class="section-header">
+                <span class="section-tag">◈ TOOLS I USE TO MAKE THINGS</span>
+                <h2 class="section-title">My Technical <em>Skills</em></h2>
+            </div>
+            <div class="pixel-divider"><span>◆</span></div>
+            <div class="events-grid">
+                <article class="event-card main">
+                    <span class="event-number">SKILL 01</span><span class="event-icon">⚙️</span>
+                    <h3>C</h3>
+                    <p>A strong foundation in memory, logic, and core programming concepts.</p>
+                    <div class="event-meta"><span class="badge badge-yellow">CORE</span><span class="badge badge-red">SYSTEMS</span></div>
+                </article>
+                <article class="event-card track">
+                    <span class="event-number">SKILL 02</span><span class="event-icon">☕</span>
+                    <h3>Java</h3>
+                    <p>I use it to understand object-oriented programming and build structured applications.</p>
+                    <div class="event-meta"><span class="badge badge-cyan">OOP</span><span class="badge badge-violet">BACKEND</span></div>
+                </article>
+                <article class="event-card track">
+                    <span class="event-number">SKILL 03</span><span class="event-icon">🌐</span>
+                    <h3>HTML</h3>
+                    <p>The structure underneath every interface I build on the web.</p>
+                    <div class="event-meta"><span class="badge badge-cyan">FRONTEND</span></div>
+                </article>
+                <article class="event-card track">
+                    <span class="event-number">SKILL 04</span><span class="event-icon">🎨</span>
+                    <h3>CSS</h3>
+                    <p>Where I shape layouts, responsive details, and the overall feel of a page.</p>
+                    <div class="event-meta"><span class="badge badge-cyan">FRONTEND</span><span class="badge badge-violet">DESIGN</span></div>
+                </article>
+                <article class="event-card track">
+                    <span class="event-number">SKILL 05</span><span class="event-icon">⚡</span>
+                    <h3>JavaScript</h3>
+                    <p>I use it to make pages respond, move, and do something useful.</p>
+                    <div class="event-meta"><span class="badge badge-cyan">SCRIPTING</span><span class="badge badge-yellow">ASYNC</span></div>
+                </article>
+                <article class="event-card track">
+                    <span class="event-number">SKILL 06</span><span class="event-icon">🐍</span>
+                    <h3>Python</h3>
+                    <p>Useful for problem solving, small scripts, automation, and quick experiments.</p>
+                    <div class="event-meta"><span class="badge badge-cyan">SCRIPTING</span><span class="badge badge-violet">AUTOMATION</span></div>
+                </article>
+                <article class="event-card bonus">
+                    <span class="event-number">SKILL 07</span><span class="event-icon">🟢</span>
+                    <h3>Node.js</h3>
+                    <p>Learning the server-side part of building applications and APIs.</p>
+                    <div class="event-meta"><span class="badge badge-green">RUNTIME</span><span class="badge badge-cyan">SERVER</span></div>
+                </article>
+                <article class="event-card bonus">
+                    <span class="event-number">SKILL 08</span><span class="event-icon">🗄️</span>
+                    <h3>SQL</h3>
+                    <p>For organising data and understanding what happens behind the interface.</p>
+                    <div class="event-meta"><span class="badge badge-green">DATABASE</span><span class="badge badge-red">DATA TECH</span></div>
+                </article>
+            </div>
+        </section>
+
+        <section class="projects-section reveal" id="projects">
+            <div class="section-header">
+                <span class="section-tag">◈ SELECTED WORK / 2023 — 2026</span>
+                <h2 class="section-title">Things I’ve <em>Built</em></h2>
+                <p class="section-intro">A few things I’ve made while learning, experimenting, and trying to solve a real problem.</p>
+            </div>
+            <div class="pixel-divider"><span>◆</span></div>
+            <div class="projects-scroll">
+                <div class="project-card">
+                    <div class="project-art art-battle" aria-hidden="true"><span>01</span><b>NEXT<br>GEN</b></div>
+                    <span class="project-number">PROJECT 01</span>
+                    <h3>⚔️ NextGen Hack</h3>
+                    <p>I built a complete hackathon website with a battle-inspired visual direction, event details, mentor information, FAQs, and a working registration flow.</p>
+                    <div class="project-tags"><span>HTML</span><span>CSS</span><span>JAVASCRIPT</span><span>UI/UX</span></div>
+                    <a href="https://next-gen-hack-diq2jxdhu-vridhisharma2207.vercel.app" target="_blank" rel="noopener noreferrer" class="project-btn">VIEW PROJECT →</a>
+                </div>
+                <div class="project-card">
+                    <div class="project-art art-swap" aria-hidden="true"><span>02</span><b>SKILL<br>SWAP</b></div>
+                    <span class="project-number">PROJECT 02</span>
+                    <h3>🎓 Skill Swap</h3>
+                    <p>A full-stack learning platform that matches students using the skills they can teach and the skills they want to learn.</p>
+                    <div class="project-tags"><span>JAVA</span><span>HTML</span><span>CSS</span><span>JAVASCRIPT</span><span>FULL STACK</span></div>
+                    <a href="https://www.linkedin.com/in/vridhi-sharma-22v/details/projects/" target="_blank" rel="noopener noreferrer" class="project-btn">VIEW PROJECT →</a>
+                </div>
+                <div class="project-card">
+                    <div class="project-art art-calm" aria-hidden="true"><span>03</span><b>WHY<br>WORRY?</b></div>
+                    <span class="project-number">PROJECT 03</span>
+                    <h3>🚀 Why worry?</h3>
+                    <p>A calm digital space built around grounding exercises, helping users move from anxious thoughts toward one small, immediate action.</p>
+                    <div class="project-tags"><span>HTML</span><span>CSS</span><span>WEB STORAGE API</span><span>JAVASCRIPT</span><span>JSON</span></div>
+                    <a href="https://www.linkedin.com/in/vridhi-sharma-22v/details/projects/" target="_blank" rel="noopener noreferrer" class="project-btn">VIEW PROJECT →</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="register-section reveal" id="contact">
+            <div class="section-header">
+                <span class="section-tag">◈ INITIATE TRANSMISSION</span>
+                <h2 class="section-title">Contact <em>Me</em></h2>
+            </div>
+            <div class="pixel-divider"><span>◆</span></div>
+            <div class="register-wrapper">
+                <div class="terminal-frame">
+                    <div class="terminal-bar">
+                        <div class="t-dot r"></div><div class="t-dot y"></div><div class="t-dot g"></div>
+                        <span class="terminal-title">contact.exe — communications</span>
+                    </div>
+                    <form class="terminal-body" id="contact-form">
+                        <p class="form-prompt">$ ./connect --vridhi <span>[ tell me what you’re working on ]</span></p>
+                        <p class="form-status" id="form-status" aria-live="polite"></p>
+                        <div class="form-group">
+                            <label for="name">YOUR NAME / COMPANY</label>
+                            <input id="name" type="text" name="name" placeholder="Enter your name or organization" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">EMAIL ADDRESS</label>
+                            <input id="email" type="email" name="email" placeholder="your@email.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="purpose">PURPOSE OF TRANSMISSION</label>
+                            <select id="purpose" name="purpose" required>
+                                <option value="" disabled selected>-- Select purpose --</option>
+                                <option value="Hiring">💼 Hiring / Job Opportunity</option>
+                                <option value="Collaboration">🤝 Project Collaboration</option>
+                                <option value="Inquiry">💬 General Inquiry</option>
+                                <option value="Greeting">🚀 Just Saying Hi!</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">MESSAGE</label>
+                            <textarea id="message" name="message" rows="5" placeholder="Type your message here..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn-register" id="register-btn">SEND MESSAGE</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer class="site-footer">
+        <span>© 2026 Vridhi Sharma</span>
+        <span>Built with curiosity <span aria-hidden="true">✦</span></span>
+    </footer>
+    <button class="back-to-top" type="button" aria-label="Back to top" title="Back to top">↑</button>
+    <div class="certificate-modal" id="certificate-modal" hidden>
+        <div class="certificate-dialog" role="dialog" aria-modal="true" aria-labelledby="certificate-title" tabindex="-1">
+            <div class="certificate-dialog-header">
+                <p>Credential preview</p>
+                <button class="certificate-close" type="button" aria-label="Close certificate preview">×</button>
+            </div>
+            <h2 id="certificate-title"></h2>
+            <div class="certificate-image-wrap"><img id="certificate-image" src="" alt=""></div>
+        </div>
+    </div>
+</body>
+</html>
