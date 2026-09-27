@@ -1,4 +1,4 @@
-## 🚀 Frontend Developer | Java Developer | Full-Stack Enthusiast | Computer Engineering Student
+## 🚀  Java Developer | Full-Stack Enthusiast | Computer Engineering Student
 
 I'm **Vridhi Sharma**, a **Computer Engineering Student** at **NMIMS Chandigarh**, focused on building **clean, intuitive interfaces** while continuously expanding into **backend systems** and **database management**.
 
